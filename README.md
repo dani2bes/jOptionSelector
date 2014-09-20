@@ -17,9 +17,7 @@ The plugin comes with a default configuration that can be overridden.
 
 -How to use it:
 
-<div class="opt-selection">
-</div>
-
+<pre>
 var optsSelector=$("div.opt-selection").jOptionSelector({
     onPreviousOptClick:function(){
         alert("back");
@@ -33,10 +31,13 @@ var optsSelector=$("div.opt-selection").jOptionSelector({
     options:["apple", "orange", "melon", "pear"],
     selectedOption:"orange"
 });
+</pre>
 
 -Getter methods
 
 Once the plugin is instantiated, their getter methods can be invoked.
 
-var qtyTest=qtySelector.jQuantitySelector('getQuantity');
-alert(qtyTest);
+<pre>
+var selectedOpt=optsSelector.jOptionSelector('getSelectedOption');
+alert(selectedOpt);
+</pre>
