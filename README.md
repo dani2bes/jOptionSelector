@@ -38,5 +38,5 @@ var optsSelector=$("div.opt-selection").jOptionSelector({
 
 Once the plugin is instantiated, their getter methods can be invoked.
 
-var selectedOpt=optsSelector.jOptionSelector('getSelectedOption');
-alert(selectedOpt);
+var qtyTest=qtySelector.jQuantitySelector('getQuantity');
+alert(qtyTest);
